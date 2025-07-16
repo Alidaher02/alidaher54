@@ -1,0 +1,22 @@
+<header class="text-white  list-none relative flex justify-around sm:items-center sm:mr-0 md:items-center mr-40 md:mr-0 p-5">
+        <h1><img class="" src="./logo.svg" alt=""></h1>
+        
+       
+        <div class="hidden sm:flex md:flex  items-center px-[32px] gap-5 md:bg-white/10 md:border border-gray-300/20 py-[12px] rounded-full ">
+            <li><a class="hover:text-[#F84565]" href="./index.html">Home</a></li>
+            <li><a class="hover:text-[#F84565]" href="./more.html">Movies</a></li>
+            <li><a class="hover:text-[#F84565]" href="">Theaters</a></li>
+            <li><a class="hover:text-[#F84565]" href="">Releases</a></li>
+        </div>
+        <div class="md:flex sm:flex hidden items-center gap-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search max-md:hidden w-6 h-6 cursor-pointer" aria-hidden="true"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg>
+             <a class="px-6 py-2 bg-[#F84565] rounded-full   text-white hover:bg-transparent hover:text-[#F84565] hover:border " href="./login.html">Login</a>
+        </div>
+        <div class="sm::hidden sm:hidden absolute left-72 bottom-4">
+            <button id="menubtn"><i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </header>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
